@@ -117,13 +117,13 @@ button {
 
 /* #region our team */
 .team {
-background-color: ;#F4F4FD
+  background-color: #f4f4fd;
 }
 .team-card {
   background-color: #f4f4fd;
 }
 
-.team-list {
+.team-card {
   background-color: #ffffff;
 }
 .team-title {
