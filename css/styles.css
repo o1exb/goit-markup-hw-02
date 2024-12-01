@@ -50,13 +50,16 @@ button {
 .nav-item-link:focus {
   color: #404bbf;
 }
+
+.address {
+  font-style: normal;
+}
 .address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
 .address-link:hover,
@@ -113,7 +116,7 @@ button {
 /* #endregion advantages */
 
 /* #region our team */
-.team {
+.team-card {
   background-color: #f4f4fd;
 }
 
