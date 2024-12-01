@@ -47,10 +47,10 @@ button {
 }
 
 .nav-item-link:hover,
-.nav-item-link:active {
+.nav-item-link:focus {
   color: #404bbf;
 }
-.address {
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -59,7 +59,8 @@ button {
   font-style: normal;
 }
 
-address-link:hover {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -87,7 +88,8 @@ address-link:hover {
   background-color: #4d5ae5;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 /* #endregion hero */
@@ -100,16 +102,34 @@ address-link:hover {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /* #endregion advantages */
 
 /* #region our team */
-.team-name {
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -118,6 +138,13 @@ address-link:hover {
   color: #2e2f42;
 }
 
+.team-rank {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .team-title:hover {
 }
 /* #endregion our team */
@@ -130,12 +157,20 @@ address-link:hover {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio-item {
+.portfolio-mtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.portfolio-mtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* #endregion portfolio */
 
@@ -153,7 +188,7 @@ address-link:hover {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-style {
+.flogo-style {
   color: #f4f4fd;
 }
 
